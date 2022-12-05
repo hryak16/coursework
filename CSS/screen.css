@@ -1,0 +1,24 @@
+.content__button{
+    border: 2px solid #fff ;
+    background-color: transparent;
+    padding: 17px;
+    height: 84px;
+    width: 557.76px;
+}
+.content__button:hover {
+    background-color:#579994; /* Green */
+    color: white;
+}
+
+.button{
+    color: #fff;
+    font-size: 48px;
+}
+.text{
+    color: #fff;
+    font-size: 32px;
+}
+.named{
+    color: #fff; 
+    font-size: 96px;
+}

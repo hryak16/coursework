@@ -1,0 +1,156 @@
+.conditions{
+    width: 410px;
+    height: 200px;
+    border: 3px solid #fff;
+    background-color: #579994;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    font-size: 32px;
+    color: #fff;
+    font-family: 'Poiret One';
+    display: flex;
+    justify-content: center;
+    /* padding-top: 60px; */
+    text-align: center;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 60px;
+    
+}
+.territory{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Poiret One';
+    /* padding-left: 20px; */
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.delivery__map{
+    display: flex;
+    justify-content: center;
+}
+#map{
+    width: 100%;
+    height: 500px;
+}
+.delivery__button{
+    width: 375px;
+    height: 95px;
+    border: 2px solid #579994 ;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+    color: #579994;
+    font-weight: bold;
+}
+.button__action{
+    font-size: 36px;
+    font-family: 'Poiret One';
+    
+}
+.delivery__button__action{
+    display: flex;
+    justify-content: center;
+    margin: 50px; 
+}
+.delivery__button:hover {
+    background-color:#579994;
+    color: white;
+}
+.additionally{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .title{
+        font-size: 40px;
+    }
+    .cards{
+        padding: 0 50px;
+    }
+    .line{
+        width: 220.64px;
+    }
+    #map{
+        width: 670px;
+        height: 600px;
+    }
+    .conditions{
+        width: 170px;
+        height: 170px;
+    }
+    .price{
+        font-size: 24px;
+        padding-bottom: 18px;
+    }
+    .territory{
+        font-size: 15px;
+    }
+    .delivery__button{
+        width: 160px;
+        height: 80px;
+        margin-left: 20px;
+    }
+    .button__action{
+        font-size: 24px;
+    }
+    p{
+        margin: 10px;
+    }
+  
+    
+}
+@media screen and (max-width: 480px){
+    .cards{
+        padding: 0;
+    }
+    .line{
+        width: 211px;
+    }
+    .title{
+        text-align: center;
+        font-size: 32px;
+    }
+    #map{
+        width: 380px;
+        height: 300px;
+    }
+    
+    .conditions{
+        width: 150px;
+        height: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .price{
+        font-size: 24px;
+    }
+    .territory{
+        font-size: 16px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .delivery__button{
+        width: 162px;
+        height: 52px;
+    }
+    .button__action{
+        font-size: 16px;
+    }
+    .dost{
+        font-size: 15px;
+    }
+}
+

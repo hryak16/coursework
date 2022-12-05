@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
+	font-family: 'Comfortaa', cursive;
+	background-color: #CADCDB;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.wrapp{
+	max-width: 1450px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+
+
+

@@ -12,7 +12,7 @@ const coords = [
 const myCollection = new ymaps.GeoObjectCollection({}, {
     draggble: false,
     iconLayout: 'default#image',
-    iconImageHref: '/img/метка.svg',
+    iconImageHref: '../img/метка.svg',
     iconImageSize: [100, 100],
     iconImageOffset: [-46, -66]
 });

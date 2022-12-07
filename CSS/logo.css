@@ -1,12 +1,12 @@
 .header__logo-img{
     height: 130px;
     width: 130px;
-    padding-bottom: 40px;
+
 }
 .footer__logo-img{
     height: 130px;
     width: 130px;
-    margin-bottom: 10px; 
+    /* margin-bottom: 10px;  */
 }
 @media screen and (max-width: 480px){
     .footer__logo-img{

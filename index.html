@@ -10,63 +10,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <title>курсач</title>
 </head>
-<body>
+<body id="fon">
     <div class="wrapp">
-        <header class="header">
-            <div class="container header-container">
-          <a href="index.html" class="logo__header">
-            <img class="header__logo-img" src="./img/logo.svg" alt="логотип">
-            </a>
-        <nav class="header__hor-menu">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="sentence.html" class="nav-link">Предложение</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link">О нас</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Доставка</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="header-search">
-            <input type="text" placeholder="Поиск" class="header__link">
-        </div>
-    </div>
+        <header class="header"> 
+            <a href="index.html" class="logo__header">
+                <img class="header__logo-img" src="img/logo_index.svg" alt="">
+                </a>
+            <nav class="header__hor-menu">
+                <div class="container header-container">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <div class="nav-item__block">
+                        <a href="sentence.html" class="nav-link fl-index">Предложение</a>
+                        </div>  
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-item__block">
+                        <a href="about.html" class="nav-link fl-index">О нас</a>
+                        </div>    
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-item__block">
+                        <a href="delivery.html" class="nav-link fl-index">Доставка</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar bar-index"></span>
+                    <span class="bar bar-index"></span>
+                    <span class="bar bar-index"></span>
+                </div>
+                </div>
+            </nav>
+            <div class="header-search">
+                <input type="text" placeholder="Поиск" class="header__link">
+            </div>
     </header>
-    <div class="title">
+    <div class="tittle">
         <h1 class="named">Садовые Цветы</h1>
             <span class="text">Благодаря нашим цветам ваш сад заиграет новими цветами!</span>
-    <button class="content__button"><span class="button">Заказать</span></button>
-    <button class="content__button"><span class="button">Подробнее</span></button>
+        <div class="knopki">
+            <button class="content__button"><span class="button">Заказать</span></button>
+            <button class="content__button"><span class="button">Подробнее</span></button>
+        </div>    
     </div>
-    <div class="title">
-        <h1 class="named">Садовые Цветы</h1>
-            <span class="text">Благодаря нашим цветам ваш сад заиграет новими цветами!</span>
-    <button class="content__button"><span class="button">Заказать</span></button>
-    <button class="content__button"><span class="button">Подробнее</span></button>
-    </div>
-    <footer class="footer">
+    <footer class="footer" id="footer-index">
         <div class="container footer-container">
             <a href="index.html" class="logo__footer">
-                <img class="footer__logo-img" src="img/logo.svg" alt="">
+                <img class="footer__logo-img" src="img/logo_index.svg" alt="">
                 </a>
                 <nav class="footer__hor-menu">
                     <ul class="footer-nav-list">
                         <li class="footer-nav-item">
-                            <a href="sentence.html" class="footer__link">Предложение</a>
+                            <a href="sentence.html" class="footer__link fl-index">Предложение</a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="about.html" class="footer__link">О нас</a>
+                            <a href="about.html" class="footer__link fl-index">О нас</a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="delivery.html" class="footer__link">Доставка</a>
+                            <a href="delivery.html" class="footer__link fl-index">Доставка</a>
                         </li>
                     </ul>
                 </nav> 
                 <a href="tel:+798181873378">
-                    <span class="con">наш телефон 8900000000</span>
+                    <span class="con" id="con-index">наш телефон 8900000000</span>
                 </a>
             <ul class="footer-social-list">
                 <li class="footer-social-item">
@@ -86,5 +93,8 @@
             </ul>
         </div>  
     </footer>
+    </div>
+
+    <script src="js/burger.js"></script>
 </body>
 </html>
